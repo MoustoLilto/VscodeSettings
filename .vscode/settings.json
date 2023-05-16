@@ -1,0 +1,43 @@
+{
+    // VISUAL
+    "files.autoSave": "afterDelay",
+    "redhat.telemetry.enabled": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.nativeTabs": true,
+
+    // TERMINAL
+    "terminal.integrated.fontFamily": "'Meslo LG L DZ for Powerline'",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    
+    // PYTHON
+    "python.defaultInterpreterPath": "C:\\Users\\moust\\AppData\\Local\\Microsoft\\WindowsApps\\python3.9.exe",
+
+    // EDITOR
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "always",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": false,
+        "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
+        "source.organizeImports": false
+    },
+
+    // ERROR LENS
+    "errorLens.enabledDiagnosticLevels": [
+      "warning",
+      "error"
+    ],
+    "errorLens.excludeBySource": [
+      "cSpell",
+      "Grammarly",
+      "eslint"
+    ],
+
+    //GITLENS
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.statusBar.enabled": false,
+    "gitlens.views.commitDetails.files.layout": "list",
+}
